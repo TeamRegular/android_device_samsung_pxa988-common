@@ -26,11 +26,11 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon-vfpv4 -mfloat-abi=softfp
 BOARD_EGL_CFG := device/samsung/pxa988-common/configs/egl.cfg
 
 # Wifi related defines
-BOARD_WLAN_DEVICE := mrvl
-WPA_SUPPLICANT_VERSION  := VER_0_8_X
-BOARD_WPA_SUPPLICANT_DRIVER := NL80211
-BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_mrvl8787
-WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/sd8787_uapsta.bin"
+#BOARD_WLAN_DEVICE := mrvl
+#WPA_SUPPLICANT_VERSION  := VER_0_8_X
+#BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+#BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_mrvl8787
+#WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/sd8787_uapsta.bin"
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
